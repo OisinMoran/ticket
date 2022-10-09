@@ -1,0 +1,56 @@
+<link rel="stylesheet" type="text/css">
+<style type="text/css">
+    body {
+       font-smooth: always;
+       background-color: #fff;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+    }
+
+    .logo {
+      /*color: #eee;*/
+      font-size: 80px;
+      font-family: sans-serif;
+      mix-blend-mode: lighten;
+      color: #000;
+      background: #fff;
+      margin-top:  0;
+      margin-bottom:  0;
+      padding: 20px;
+    }
+
+    .cont {
+      background: linear-gradient(-60deg, #999, #999, #000, #fdd, #333, #fdd);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+</style>
+
+<body>
+    <div class="center">
+        <div class="cont">
+            <p class="logo">
+                <em>ticket.industries</em>
+                <br>
+                <em>—never miss a gig again</em>
+            </p>
+        </div>
+    </div>
+</body>
